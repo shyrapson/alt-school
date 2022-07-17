@@ -30,9 +30,7 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    const even = arrayOfNumbers.filter(number => {
-      return number % 2 === 0;
-    })
+    const even = arrayOfNumbers.filter(number => number % 2 == 0)
   return even
 }
  assignment.countEvenNumbers = countEvenNumbers;
