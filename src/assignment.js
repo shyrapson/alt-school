@@ -38,10 +38,10 @@ arrayOfNumbers.forEach(number => {
     evenNum.push(number);
   }
 });
-  return evenNum
+  return evenNum.length
 
                        }
- // assignment.countEvenNumbers = countEvenNumbers;
+ assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
