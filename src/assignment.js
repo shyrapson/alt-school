@@ -41,7 +41,7 @@ arrayOfNumbers.forEach(number => {
   return evenNum
 
                        }
- assignment.countEvenNumbers = countEvenNumbers;
+ // assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
