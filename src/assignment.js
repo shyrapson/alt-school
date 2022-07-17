@@ -30,10 +30,12 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
- return  arrayOfNumbers.filter(number => number % 2 == 0)
+let evenNums  =  arrayOfNumbers.filter((num) =>num%2 == 0)
+
+ return evenNums
 
 }
- // assignment.countEvenNumbers = countEvenNumbers;
+ assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
